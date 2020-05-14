@@ -1,0 +1,37 @@
+---- light / ericw-tools v0.18.1 ----
+Raytracing backend: Embree
+running with 4 threads
+LoadBSPFile: 'desertkeepfinallevel.bsp'
+BSP is version 29
+--- LoadEntities ---
+WARNING: brush entity with mins (353.00 369.00 225.0) maxs (415.00 431.00 543.0) (func_door) has unmatched "target" (lightning)
+WARNING: brush entity with mins (-260.00 355.00 225.) maxs (-198.00 417.00 543.) (func_door) has unmatched "target" (lightning)
+46 entities read, 9 are lights.
+--- OptionsSummary ---
+Embree_TraceInit: Embree version: 2.15.0
+Embree_TraceInit:
+	0 sky faces
+	2061 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 9 initial lights
+SetupLights: 9 after surface lights
+SetupLights: 9 after jittering
+--- EstimateLightVisibility ---
+0....1....2....3....4....5....6....7....8....
+Final count: 9 lights 0 suns in use.
+Colored light entities/settings detected: .lit output enabled.
+--- LightWorld ---
+0....1....2....3....4....5....6....7....8....9....
+Lighting Completed.
+
+lightdatasize: 65932
+Writing desertkeepfinallevel.lit
+0 switchable light styles (32 max)
+Writing desertkeepfinallevel.bsp as BSP version 29
+7.390 seconds elapsed
+
+stats:
+4.111272 lights tested, 1.593420 hits per sample point
+0.000000 bounce lights tested, 0.000000 hits per sample point
+0 empty lightmaps
